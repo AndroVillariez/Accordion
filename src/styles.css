@@ -1,0 +1,80 @@
+body {
+  background: teal;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 900px;
+  padding: 3rem 2rem;
+  width: 80%;
+  border-radius: 0.25rem;
+  background: white;
+  transform: translate(-50%, -50%);
+}
+
+h1,
+h3 {
+  color: #312d2d;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: hsl(210, 22%, 49%);
+}
+
+.title {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+.question {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.qarea {
+  display: flex;
+  justify-content: space-between;
+}
+
+.qarea h3 {
+  width: 90%;
+}
+
+.btn {
+  border: transparent;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-left: 1rem;
+}
+
+@media (min-width: 900px) {
+  main {
+    display: flex;
+    border: 1px solid;
+  }
+
+  .question-container {
+    flex-basis: 100%;
+  }
+
+  .title {
+    padding: 0 2.5rem 0 0;
+  }
+}
